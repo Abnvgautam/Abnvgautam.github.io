@@ -221,6 +221,9 @@ nav {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 5px;
+  margin-top: 40px;
+  width: 90%;
+  margin-left: 60px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -424,7 +427,10 @@ background-color: #555;
 }
 
 .blog-section {
-padding: 40px;
+padding: 30px;
+margin-top: 20px;
+width: 90%;
+margin-left: 75px;
 }
 
 .blog-post {
@@ -445,11 +451,13 @@ border-right: 1px solid #ddd;
 .blog-content {
 padding: 20px;
 width: 60%; /* Adjust the width as needed */
+color: #808080;
 }
 
 .blog-title {
 font-size: 24px;
 margin-bottom: 10px;
+color: #15616d;
 }
 
 .blog-meta {
@@ -522,4 +530,40 @@ background-color: #555;
 .contact-text p{
   color: #808080;
   text-align: center;
+}
+
+
+.welcome.reversed {
+  flex-direction: row-reverse;
+  margin-top: 60px;
+}
+
+.welcome .container-rev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome .content-rev {
+  max-width: 600px;
+  margin-right: 20px;
+}
+
+.welcome .feature-img-rev {
+  max-width: 540px;
+  height: 480px;
+  margin-right: 60px;
+
+}
+
+
+.content-welcome-rev h2{
+  color: #15616d;
+  margin-top: 120px;
+  font-size: 32px;
+}
+.content-welcome-rev p{
+  color: #808080;
+  text-align: justify;
+  line-height: 1.7;
 }
