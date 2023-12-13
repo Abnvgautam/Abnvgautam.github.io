@@ -62,7 +62,9 @@ nav {
 }
 
 .logo {
-  width: 80px;
+  width: 40px;
+  height: 50px;
+  margin-left: 20px;
 }
 
 .content {
@@ -205,7 +207,7 @@ nav {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 5px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -323,4 +325,134 @@ padding: 20px;
 .image-shop{
   height: 260px;
 
+}
+footer {
+  background-color: #15616d;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+width: 40px;
+height: 50px;
+margin-left: 52px;
+}
+
+.footer-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+  margin-right: 42px;
+}
+
+.social-icon img {
+  width: 30px; /* Adjust the width as needed */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form {
+max-width: 600px;
+margin: 0 auto;
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+}
+
+form input,
+form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+form button {
+background-color: #333;
+color: #fff;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
+form button:hover {
+background-color: #555;
+}
+
+.blog-section {
+padding: 40px;
+}
+
+.blog-post {
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+overflow: hidden;
+display: flex;
+}
+
+.blog-post img {
+width: 40%; /* Adjust the width as needed */
+height: auto;
+border-right: 1px solid #ddd;
+}
+
+.blog-content {
+padding: 20px;
+width: 60%; /* Adjust the width as needed */
+}
+
+.blog-title {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.blog-meta {
+color: #777;
+font-size: 14px;
+}
+
+.learn-more-btn {
+background-color: #333;
+color: #fff;
+padding: 10px 15px;
+text-decoration: none;
+border-radius: 4px;
+display: inline-block;
+}
+
+.learn-more-btn:hover {
+background-color: #555;
 }
