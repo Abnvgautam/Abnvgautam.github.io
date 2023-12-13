@@ -59,6 +59,7 @@ nav {
   color: #fff;
   font-size: 20px;
   background-color: #15616d;
+  border-radius: 8px;
 }
 
 .logo {
@@ -72,6 +73,10 @@ nav {
   max-width: 600px;
   margin-left: 15px;
 
+}
+
+.content-home{
+  text-align: right;
 }
 
 .content-about {
@@ -123,6 +128,14 @@ nav {
   bottom: 2%;
   left: 4%;
 }
+
+.feature-img-home {
+  width: 120%;
+  height: 100%;
+  margin-top: 60px;
+  
+}
+
 .column {
   float: left;
   width: 21%;
@@ -330,7 +343,7 @@ footer {
   background-color: #15616d;
   color: #fff;
   padding: 20px 0;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .footer-content {
@@ -397,7 +410,7 @@ box-sizing: border-box;
 }
 
 form button {
-background-color: #333;
+background-color: #15616d;
 color: #fff;
 padding: 12px 20px;
 border: none;
@@ -445,7 +458,7 @@ font-size: 14px;
 }
 
 .learn-more-btn {
-background-color: #333;
+background-color: #15616d;
 color: #fff;
 padding: 10px 15px;
 text-decoration: none;
@@ -455,4 +468,58 @@ display: inline-block;
 
 .learn-more-btn:hover {
 background-color: #555;
+}
+
+.welcome .container-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  padding-top: 80px;
+}
+
+.welcome .content {
+  max-width: 600px;
+  margin-left: 16px;
+  justify-content: right;
+  position: relative;
+  bottom: 100px;
+  
+  
+}
+
+.welcome .feature-img-home {
+  max-width: 50%;
+  height: 440px;
+  margin-left: 50px;
+  position: relative;
+  bottom: 90px;
+ /* Add border-radius as needed */
+}
+
+
+.content-welcome h2{
+  color: #15616d;
+}
+.content-welcome p{
+  color: #808080;
+  text-align: justify;
+  line-height: 1.7;
+}
+.btn-home{
+  margin-top: 36px;
+  padding: 15px 40px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.contact-text h2{
+  color: #15616d;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contact-text p{
+  color: #808080;
+  text-align: center;
 }
